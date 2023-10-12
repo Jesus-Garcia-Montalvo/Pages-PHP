@@ -1,0 +1,18 @@
+h1 {
+    color: brown;
+  }
+  
+  a {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-decoration: none; /* Para eliminar el subrayado predeterminado en los enlaces */
+  }
+  
+  a:hover {
+    background-color: darkblue; /* Cambio de color al pasar el mouse sobre el enlace */
+  }
+  
