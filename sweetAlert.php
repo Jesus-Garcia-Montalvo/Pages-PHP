@@ -1,5 +1,17 @@
+<?php
+
+
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +22,16 @@
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
+
 <body>
     <h1>Iniciar Sesión</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="mb-3">
-            <label  class="form-label">Nombre de usuario</label>
+            <label class="form-label">Nombre de usuario</label>
             <input type="text" class="form-control" id="username" name="username" required>
         </div>
         <div class="mb-3">
-            <label  class="form-label">Contraseña</label>
+            <label class="form-label">Contraseña</label>
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
         <button type="submit" class="btn btn-primary" name="submit">Iniciar Sesión</button>
@@ -42,9 +55,10 @@
 
             // Redirige al usuario a la página principal después de un breve retardo
             echo '<meta http-equiv="refresh" content="2;URL=index.php">';
-        } 
+        }
     }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </body>
+
 </html>
